@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    background-color: none;
+    color: $uni-text-color;
+}
+page{
+    box-sizing: border-box;
+    background-color: none;
+    color: $uni-text-color;
+}
+.page-content{
+    width: 100vw;
+    /* #ifdef H5 */
+    height: calc(100vh - 50px);
+    /* #endif */
+    /* #ifdef MP-WEIXIN */
+    height: 100vh;
+    /* #endif */
+    box-sizing: border-box;
+    color: $uni-text-color;
+    background-color: #f8f8f8!important;
+}
+.page-view{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    color: $uni-text-color;
+    background-color: #f8f8f8!important;
+}
+.u-cell{
+    background-color: #fff;
+}
+.font-family{
+    font-family: PingFangSC-Regular;
+}
+.df{
+    display: flex;
+}
+.df-sb{
+    display: flex;
+    justify-content: space-between;
+}
+.fb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.small-divider{
+    margin: 5px 0 !important;
+}
+.ml8{
+    margin-left: 8px;
+}
+.ml10{
+    margin-left: 10px;
+}
+.ml14{
+    margin-left: 14px;
+}
+.mt4{
+    margin-top: 4px;
+}
+.mt10{
+    margin-top: 10px;
+}
+.mb10{
+    margin-bottom: 10px;
+}
+.footer-btn{
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 10%;
+}

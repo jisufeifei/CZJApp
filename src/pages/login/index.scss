@@ -1,0 +1,35 @@
+.login-page{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 50px 25px;
+}
+.login-app-logo{
+    width: 270px;
+    height: 270px;
+    margin: 30px auto;
+    display: block !important;
+}
+.input-box{
+    margin-top: 15px;
+    .bottom-line{
+        border-bottom: 1px solid #e7e6e4;
+    }
+}
+.code-input{
+    margin-top: 25px;
+}
+.submint-btn{
+    margin-top: 25px;
+}
+.custom-style{
+    border-radius: 7px;
+}
+.private-pannel{
+    margin-top: 20px;
+    display: flex;
+    .private-text{
+        font-size: 12px;
+        display: flex;
+        color: $u-tips-color;
+    }
+}

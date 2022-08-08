@@ -1,0 +1,84 @@
+.content{
+    .scroll-Y{
+        height: calc(100vh - 50px);
+    }
+    .content-block{
+        padding: 20px 0;
+        .block-title{
+            width: 100%;
+            font-family: PingFangSC-Medium;
+            font-size: 18px;
+            color: #000000 !important;
+            line-height: 24px;
+            .title-icon{
+                width: 6px;
+                height: 24px;
+                background-image: linear-gradient(180deg, #FFBE36 0%, #FD8919 100%);
+                margin-right: 20px;
+            }
+        }
+        .hot-pannel{
+            padding: 0 15px;
+            flex-wrap: wrap;
+            margin-top: 10px;
+            .hot-item{
+                padding: 6px 16px;
+                color: #666;
+                font-family: PingFangSC-Regular;
+                font-size: 14px;
+                background-color: #F2F2F2;
+                border-radius: 4px;
+                margin-top: 10px;
+                margin-right: 10px;
+            }
+            .hot-item:last-child{
+                margin-right: 0;
+            }
+        }
+        .swiper-block{
+            margin-top: 20px;
+            // .scroll-list{
+            //     @include flex(column);
+            // }
+            
+            .swiper-line{
+                display: flex;
+                flex-direction: row;
+                .swiper-item{
+                    width: 100px;
+                    font-family: PingFangSC-Regular;
+                    font-size: 14px;
+                    text-align: center;
+                    flex: 1;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    .swiper-img{
+                        width: 32px;
+                        height: 32px;
+                        display: block;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+            .swiper-line:nth-child(1){
+                margin-bottom: 10px;
+            }
+        }
+        .more-task{
+            font-family: PingFangSC-Regular;
+            font-size: 14px;
+            color: #999;
+            margin-right: 10px;
+            line-height: 24px;
+        }
+        .task-list{
+            box-sizing: border-box;
+            height: 100%;
+        }
+    }
+    .content-block:last-child{
+        padding-bottom: 0;
+    }
+}

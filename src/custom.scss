@@ -1,0 +1,32 @@
+.custom-style{
+    border-color: #FD8919 !important;
+    color: #FD8919 !important;
+    background-color: transparent !important;
+}
+.u-button::before{
+    background-color: transparent !important;
+}
+/* #ifdef MP-WEIXIN */
+.u-button--default{
+    border: 1px solid #FD8919 !important;
+    color: #FD8919 !important;
+    background-color: transparent !important;
+}
+/* #endif */
+.u-button--active{
+    background-color: transparent !important;
+}
+
+.u-button--primary{
+    height: 50px !important;
+    border: none !important;
+    background-color: #FD8919 !important;
+}
+
+.hideWord{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+}
+
